@@ -1,0 +1,128 @@
+#container{
+
+width: 50.12rem;
+height: 90vh;
+border-radius:12px ;
+margin-left:80px;
+display: flex;
+box-shadow: 2px 2px 15px black;
+background-color: white;
+margin-top: 17px;
+
+}
+body{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  background-color:  #142D43;
+  
+}
+
+.tools{
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+box-shadow: 2px 1px 3px black;
+margin-top: 8rem;
+padding: 34px;
+border-radius: 31px;
+background-color: rgb(172, 208, 240);
+position: relative;
+top: -90px;
+
+}
+.colors{
+display: flex;
+gap: 13px;
+
+}
+ .tools p{
+
+
+text-align: center;
+font-weight: bold;
+
+}
+
+  .div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+.divIn{
+
+flex-grow: 1;
+
+}
+.black, .red, .green{
+  border-radius:4px;
+color: white;
+  width: 100px;
+  height:34px
+
+
+
+}
+.black:hover, .red:hover, .green:hover{
+  color:transparent;
+
+
+
+}
+.black{
+  background-color: black;
+  border:solid 3px black;
+}
+.red{
+  background-color:red;
+  border:solid 3px red;
+  
+}
+.green{
+  background-color: green;
+  border:solid 3px green;
+}
+.erase, .grid, .noGrid{
+
+  width: 100px;
+  height:34px;
+  border-radius:4px;
+  border: solid 1px black;
+  background-color: #1F53B9;
+  color: white;
+  border: none;
+  
+
+}
+.buttons{
+
+display: flex;
+justify-content:space-around;
+
+}
+.erase:hover, .grid:hover, .noGrid:hover{
+
+  background-color: rgb(117, 82, 17);
+
+
+}
+body>div+div{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ margin-left: 50px;
+}
+h1{
+
+color: white;
+
+}
